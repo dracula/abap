@@ -1,0 +1,36 @@
+*&---------------------------------------------------------------------*
+*& Report ZDRACULA
+*&---------------------------------------------------------------------*
+*&
+*&---------------------------------------------------------------------*
+REPORT ZDRACULA.
+
+**********************************************************************
+*This is an example
+**********************************************************************
+
+DATA: vl_var TYPE string,
+      vl_int TYPE i,
+      tl_tab TYPE TABLE OF i,
+      wl_tab LIKE LINE OF tl_tab.
+
+vl_var = 'This is an example'.
+DATA(vl_len) = strlen( vl_var ).
+
+"Comments are like this
+*CALL METHOD my->method( ).
+vl_int = 1243 + 3012.
+
+LOOP AT tl_tab INTO wl_tab.
+
+  DATA(vl_soma) = wl_tab + vl_int.
+  IF vl_soma >= 0.
+    WRITE: |This is the result: | && vl_soma.
+    vl_var = 'This  is the current line'.
+  ENDIF.
+
+ENDLOOP.
+
+IF sy-uname EQ 'Nosferatu'.
+  BREAK-POINT.
+ENDIF.
