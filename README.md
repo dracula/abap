@@ -1,6 +1,6 @@
 # Dracula for [ABAP](https://developers.sap.com/topics/abap-platform.html)
 
-> A dark theme for [ABAP](https://developers.sap.com/topics/abap-platform.html.
+> A dark theme for [ABAP](https://developers.sap.com/topics/abap-platform.html).
 
 ![Screenshot](./screenshot.png)
 
