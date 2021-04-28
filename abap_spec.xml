@@ -118,17 +118,17 @@
 		<TextType id="13" name="Maximum line length" dstyle="1" dbkclr="1" clr="5592575"/>
 		<TextType id="2" name="Selected text" dstyle="1" dbkclr="0" clr="15923448" bkclr="10777186"/>
 		<TextType id="1" name="Selection margin" dstyle="1" dbkclr="1" clr="5916484"/>
-		<TextType id="21" name="Text highlights" bold="0" italic="0" underline="0" clr="13007359" bkclr="3549736"/>
-		<TextType id="22" name="Text highlights error" bold="1" italic="0" underline="0" clr="7125247" bkclr="3549736"/>
-		<TextType id="30" name="Normal" dstyle="0" dbkclr="0" bold="0" italic="0" underline="0" clr="15923448" bkclr="3549736"/>
+		<TextType id="21" name="Text highlights" bold="0" italic="0" underline="0" clr="13007359" bkclr="-1"/>
+		<TextType id="22" name="Text highlights error" bold="1" italic="0" underline="0" clr="7125247" bkclr="-1"/>
+		<TextType id="30" name="Normal" dstyle="0" dbkclr="0" bold="0" italic="0" underline="0" clr="15923448" bkclr="1511953"/>
 		<TextType id="9" name="Read-only mode" dstyle="1" dbkclr="1" clr="3549736"/>
-		<TextType id="31" name="Comments" dstyle="0" dbkclr="0" text="1" bold="0" italic="1" underline="0" clr="10777186" bkclr="3549736">
+		<TextType id="31" name="Comments" dstyle="0" dbkclr="0" text="1" bold="0" italic="1" underline="0" clr="10777186" bkclr="-1">
 			<FirstChar>*</FirstChar>
 			<Conditions>
 				<Condition start="&quot;" end="\n"/>
 			</Conditions>
 		</TextType>
-		<TextType id="52" name="Keywords" ImageIdx="13" bold="0" italic="0" underline="0" clr="16640395" bkclr="3549736">
+		<TextType id="52" name="Keywords" ImageIdx="13" bold="0" italic="0" underline="0" clr="16640395" bkclr="-1">
 			<Keywords>
 				<Keyword text="Class-pool"/>
 				<Keyword text="Function-pool"/>
@@ -578,8 +578,8 @@
 				<Keyword text="zone"/>
 			</Keywords>
 		</TextType>
-		<TextType id="32" name="Numbers" dstyle="0" dbkclr="0" bold="0" italic="0" underline="0" clr="9239281" bkclr="3549736"/>
-		<TextType id="55" name="Operators" ImageIdx="12" bold="0" italic="0" underline="0" clr="16356285" bkclr="3549736">
+		<TextType id="32" name="Numbers" dstyle="0" dbkclr="0" bold="0" italic="0" underline="0" clr="9239281" bkclr="-1"/>
+		<TextType id="55" name="Operators" ImageIdx="12" bold="0" italic="0" underline="0" clr="16356285" bkclr="-1">
 			<Separators>
 				<Separator text="."/>
 				<Separator text=":"/>
@@ -592,15 +592,15 @@
 				<Keyword text="=?"/>
 			</Keywords>
 		</TextType>
-		<TextType id="33" name="Strings" dstyle="0" dbkclr="0" text="1" bold="0" italic="0" underline="0" clr="8125008" bkclr="3549736">
+		<TextType id="33" name="Strings" dstyle="0" dbkclr="0" text="1" bold="0" italic="0" underline="0" clr="8125008" bkclr="-1">
 			<FirstChar/>
 			<Conditions>
 				<Condition start="'" end="'"/>
 				<Condition start="`" end="`"/>
 			</Conditions>
 		</TextType>
-		<TextType id="40" name="Syntactical error" dstyle="1" dbkclr="0" clr="5592575" bkclr="3549736"/>
-		<TextType id="70" name="Token operator" bold="0" italic="0" underline="0" clr="16356285" bkclr="3549736">
+		<TextType id="40" name="Syntactical error" dstyle="1" dbkclr="0" clr="5592575" bkclr="-1"/>
+		<TextType id="70" name="Token operator" bold="0" italic="0" underline="0" clr="16356285" bkclr="-1">
 			<Separators>
 				<Separator text="-"/>
 				<Separator text="-&gt;"/>
@@ -608,7 +608,7 @@
 				<Separator text="~"/>
 			</Separators>
 		</TextType>
-		<TextType id="20" name="User region" dstyle="0" dbkclr="0" text="0" bold="0" italic="1" underline="0" clr="16356285" bkclr="3549736">
+		<TextType id="20" name="User region" dstyle="0" dbkclr="0" text="0" bold="0" italic="1" underline="0" clr="16356285" bkclr="-1">
 			<Conditions>
 				<Condition start="&quot;$." end="\n"/>
 			</Conditions>

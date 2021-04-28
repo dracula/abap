@@ -1,5 +1,9 @@
+To play around and edit the abap_spec.xml, inside the <COLORSYNTAX> tag
+For each TextType node, edit either "clr" or "bkclr" properties, using the following interal codes:
+
 Foreground  = 15923448
-Background  = 3549736
+Background (read mode) = 3549736
+Background (edit mode) = 1511953
 CurrentLine = 5916484
 Comment     = 10777186
 Cyan		= 16640395
