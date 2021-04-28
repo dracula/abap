@@ -19,7 +19,7 @@ Download using the [GitHub .zip download](https://github.com/dracula/abap/archiv
 
 #### Customizing theme
 
-To customize, open the abap_spec.xml, and change the nodes inside the COLORSYNTAX tag.
+To customize, open  abap_spec.xml, and change the nodes inside the COLORSYNTAX tag.
 
 For each TextType node, change either "clr" or "bkclr" properties, using the following internal codes:
 
